@@ -7,4 +7,8 @@ To check if my syntax is correct, I compile locally with verilator
 ```bash
 cd compile
 ./compile <file name in src/ without ".v"> <name of the top_module>
+
+# example
+# the file is src/vector5.v and the top module is top_module
+./compile.sh vector5 top_module
 ```
